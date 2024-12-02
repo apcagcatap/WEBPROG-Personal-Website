@@ -1,15 +1,17 @@
 body {
   background-image: url("BACKGROUND.jpg");
-  }
-  
-  h1 {
-    color: white;
-    text-align: center;
-  }
-  h2 {
-    color: white
-  }
-  
-  p {
-    font-family: 'Times New Roman', Times, serif;
-  }
+  background-size: cover; 
+  background-repeat: no-repeat;
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+}
