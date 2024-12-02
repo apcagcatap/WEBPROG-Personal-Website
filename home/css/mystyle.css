@@ -4,16 +4,16 @@ body {
 h1 {
   color: #DCEED1;
   text-align: center;
-  font-size: 80 px;
+  font-size: 80px;
 }
 
 h2 {
   color: #AAC0AA;
-  font-size: 50 px;
+  font-size: 50px;
 }
 
 p {
-  color: #c5d2d2;
+  color: white;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 30 px;
+  font-size: 30px;
 }
