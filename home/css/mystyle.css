@@ -1,17 +1,16 @@
 body {
-  background-image: url("BACKGROUND.jpg");
-  background-size: cover; 
-  background-repeat: no-repeat;
+  background-color: #297278;
 }
 h1 {
-  color: white;
+  color: #DCEED1;
   text-align: center;
 }
 
 h2 {
-  color: white;
+  color: #AAC0AA;
 }
 
 p {
+  color: #599a9b;
   font-family: 'Times New Roman', Times, serif;
 }
