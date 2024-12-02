@@ -1,5 +1,7 @@
 body {
-  background-color: #297278;
+  background-image: url('BACKGROUND.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
 }
 h1 {
   color: #DCEED1;
