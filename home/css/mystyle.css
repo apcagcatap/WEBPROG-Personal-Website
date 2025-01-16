@@ -319,7 +319,7 @@ section {
   margin: auto 0;
 }
 
-/* EXPERIENCE SECTION */
+/* MORE INFO SECTION */
 
 #experience {
   position: relative;
@@ -358,7 +358,7 @@ article .icon {
   cursor: default;
 }
 
-/* PROJECTS SECTION */
+/* PHOTOGALLERY SECTION */
 
 #projects {
   position: relative;
@@ -384,8 +384,45 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+.carousel {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.carousel-buttons {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+.carousel-buttons button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.carousel-buttons button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
-/* CONTACT */
+/* SURVEY */
 
 #contact {
   display: flex;
