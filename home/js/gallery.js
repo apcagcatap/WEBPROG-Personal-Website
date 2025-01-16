@@ -2,10 +2,10 @@ Vue.component('photo-carousel', {
     data: function() {
       return {
         images: [
-          'img_5terre.jpg',
-          'img_forest.jpg',
-          'img_forest.jpg',
-          'img_5terre.jpg',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
         ],
         currentIndex: 0
       };
