@@ -46,5 +46,5 @@ Vue.component('photo-carousel', {
 
   // Vue Instance
   new Vue({
-    el: '#app1',
+    el: '#appp',
   });
