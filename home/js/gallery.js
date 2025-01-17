@@ -3,9 +3,9 @@ Vue.component('photo-carousel', {
       return {
         images: [
           'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
-          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
-          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
-          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0637.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_1230.JPG',
+          'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_1554.JPG',
         ],
         currentIndex: 0
       };
