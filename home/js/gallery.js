@@ -1,5 +1,5 @@
 Vue.component('photo-carousel', {
-    data: function() {
+    data: function () {
       return {
         images: [
           'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_0245.JPG',
@@ -7,29 +7,22 @@ Vue.component('photo-carousel', {
           'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_1230.JPG',
           'https://apcagcatap.github.io/WEBPROG-Personal-Website/home/IMG_1554.JPG',
         ],
-        currentIndex: 0
+        currentIndex: 0,
       };
     },
     computed: {
       transformStyle() {
         return `translateX(-${this.currentIndex * 100}%)`;
-      }
+      },
     },
     methods: {
       nextImage() {
-        if (this.currentIndex < this.images.length - 1) {
-          this.currentIndex++;
-        } else {
-          this.currentIndex = 0; // Loop back to the first image
-        }
+        this.currentIndex = (this.currentIndex + 1) % this.images.length;
       },
       prevImage() {
-        if (this.currentIndex > 0) {
-          this.currentIndex--;
-        } else {
-          this.currentIndex = this.images.length - 1; // Loop back to the last image
-        }
-      }
+        this.currentIndex =
+          (this.currentIndex - 1 + this.images.length) % this.images.length;
+      },
     },
     template: `
       <div class="carousel">
@@ -41,7 +34,7 @@ Vue.component('photo-carousel', {
           <button @click="nextImage">❯</button>
         </div>
       </div>
-    `
+    `,
   });
 
   // Vue Instance
